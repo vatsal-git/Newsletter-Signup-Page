@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "vatsal1:036939a6653eb493205680c6482c6f851-us1"
+        auth: "vatsal1:36939a6653eb493205680c6482c6f851-us1"
     };
 
     const request = https.request(url, options, function (response) {
